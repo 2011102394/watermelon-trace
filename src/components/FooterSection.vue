@@ -39,6 +39,11 @@
         </div>
       </div>
       <p class="footer-copyright">宁夏硒砂瓜溯源系统</p>
+      <div class="footer-support">
+        <p>中煤航测遥感集团</p>
+        <p>陕西煤航安全印务有限公司</p>
+        <p class="support-label">提供技术支持</p>
+      </div>
     </div>
   </footer>
 </template>
@@ -123,6 +128,25 @@
   font-size: 0.7rem;
   color: #a0b0a6;
   letter-spacing: 0.1em;
+  margin: 0 0 1.2rem;
+}
+
+.footer-support {
+  padding-top: 1rem;
+  border-top: 1px solid rgba(26, 86, 50, 0.1);
+}
+
+.footer-support p {
+  font-size: 0.75rem;
+  color: #7a8f82;
+  letter-spacing: 0.1em;
   margin: 0;
+  line-height: 1.8;
+}
+
+.footer-support .support-label {
+  font-size: 0.65rem;
+  color: #a0b0a6;
+  margin-top: 0.1rem;
 }
 </style>

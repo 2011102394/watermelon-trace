@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  watermelon-trace:
+    build: .
+    container_name: watermelon-trace
+    ports:
+      - "8080:80"
+    restart: unless-stopped
